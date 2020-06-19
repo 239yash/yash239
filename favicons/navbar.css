@@ -1,0 +1,180 @@
+.background {
+position: absolute; 
+display: block;
+top: 0; 
+left: 0;
+z-index: 0;
+opacity:0.5;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+.wrapHead{
+  width: 90%;
+  margin: 0 auto;
+  transition: all ease-in-out 0.5s;
+}
+.wrapHead.fixed-to-top{
+  width: 96%;
+}
+header{
+  position: fixed;
+  width: 100%;
+  background: rgba(38, 50, 56, 0.5);
+  padding: 10px 0;
+  z-index: 2;
+  transition: all ease-in-out 0.5s;
+}
+header:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+header.fixed-to-top{
+  background: rgba(38, 50, 56, 1);
+}
+
+nav{
+  float: right;
+  margin-top: 10px;
+
+}
+nav li{
+  display: inline-block;
+  margin: 0 4px;
+}
+nav li a{
+  padding: 10px 0;
+  text-decoration: none;
+  color: #e1e1e1;
+  transition: all ease-in-out 0.5s;
+}
+nav li a:hover{
+  color: #bbb;
+}
+
+.container1 h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 6rem;
+  line-height: 1;
+  color: #FF652F;
+  position: absolute;
+  top:50%;
+  left:35%;
+  z-index: 1;
+}
+
+.container1 h2 {
+  font-family: 'Francois One', sans-serif !important;
+  color: #FFE400;
+  position: absolute;
+  top:40%;
+  left:45%;
+  z-index: 1;
+}
+
+.aboutme {
+  background: rgb(211,211,211,0.2);
+  display: block;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  position: absolute;
+  top:125%;
+  left:120px;
+  right: 40%;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+}
+
+.about-content p {
+  font-size: 26px;
+  font-family: 'Patrick Hand', cursive;
+  color: #E9C893;
+  opacity:1;
+
+}
+
+.experience-content p {
+  font-size: 26px;
+  font-family: 'Patrick Hand', cursive;
+  color: #E9C893;
+  opacity:1;
+
+}
+
+.about-content h2 {
+  font-size: 26px;
+  font-family: 'Patrick Hand', cursive;
+  color: #E9C893;
+  opacity:1;
+}
+
+
+.about-image img{
+  border-radius: 50%;
+  width: 25%;
+  border: 10px solid #28CF75;
+  height: 60%;
+  position: absolute;
+  top:130%;
+  right:120px;
+  z-index: 1;
+}
+
+.experienceme {
+  background: rgb(211,211,211,0.2);
+  display: block;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  position: absolute;
+  top:230%;
+  right:120px;
+  left: 40%;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+}
+
+.experience-content h2 {
+  font-size: 26px;
+  font-family: 'Patrick Hand', cursive;
+  color: #E9C893;
+  opacity:1;
+}
+
+
+.experience-image img{
+  border-radius: 50%;
+  width: 25%;
+  border: 10px solid #28CF75;
+  height: 60%;
+  position: absolute;
+  top:235%;
+  left:120px;
+  z-index: 1;
+}
+
+
+section{
+  height: 105vh;
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+#contact{
+  background: #C5E1A5;
+}
+
